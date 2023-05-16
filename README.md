@@ -6,6 +6,8 @@ NodeJS library to pull ASX stock information via the undocumented API used on [w
 
 _NOTE: This library uses some undocumented APIs from the ASX.com.au website and as such is subject to ASX not disabling those APIs, data is delayed by 20mins._
 
+https://www.npmjs.com/package/asxjs
+
 ## Installation
 
 Install via npm:
