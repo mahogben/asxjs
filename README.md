@@ -18,13 +18,15 @@ Install via npm:
 
 Import the ASX library:
 
-```import { ASX } = require("asxjs")```
+```const { ASX } = require('asxjs');```
 
 Create an instance and make requests:
 
 ```
 const asx = new ASX();
-asx.getSecurityInfo("CBA");
+asx.getSecurityInfo("CBA").then((response) => {
+    //do something with the data
+});
 ```
 
 ## API
@@ -38,13 +40,21 @@ asx.getSecurityInfo("CBA");
 
 Pull information on the company with the given ticker symbol. This will only work for a company, it will not return information on, ETFs, warrants, indices etc.
 
-```asx.getCompanyInfo("CBA");```
+```
+asx.getCompanyInfo("CBA").then((response) => {
+    //do something with the data
+});
+```
 
 ### get_security_info()
 
 Pull pricing information on the security with the given ticker symbol. This can be for any type of listed security, such as company stock, bonds, ETFs etc.
 
-```asx.getSecurityInfo("CBA");```
+```
+asx.getSecurityInfo("CBA").then((response) => {
+    //do something with the data
+});
+```
 
 ## Changelog
 
