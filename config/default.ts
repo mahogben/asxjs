@@ -1,3 +1,0 @@
-export default {
-    BASE_URL: "https://www.asx.com.au/asx/1",
-};

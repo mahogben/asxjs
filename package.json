@@ -10,7 +10,6 @@
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
-    "config": "^3.3.9",
     "node-fetch": "^2.6.11",
     "typescript": "^5.0.4"
   },
