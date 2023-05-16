@@ -1,8 +1,8 @@
 # asxjs
 
-![npm](https://img.shields.io/npm/v/@mattahogben/asxjs) ![NPM](https://img.shields.io/npm/l/@mattahogben/asxjs)
+![npm](https://img.shields.io/npm/v/asxjs) ![NPM](https://img.shields.io/npm/l/asxjs)
 
-NodeJS library to pull ASX stock information via the undocumented API used on [www.ASX.com.au](https://www.asx.com.au). Based on the python example from [jericmac](https://github.com/jericmac/pyasx) ported to a custom class Typescript library.
+NodeJS library to pull ASX stock information via the undocumented API used on [www.ASX.com.au](https://www.asx.com.au). Based on the python example [pyasx](https://github.com/jericmac/pyasx) ported to a custom class Typescript library.
 
 _NOTE: This library uses some undocumented APIs from the ASX.com.au website and as such is subject to ASX not disabling those APIs, data is delayed by 20mins._
 
@@ -35,11 +35,13 @@ asx.getSecurityInfo("CBA");
 ### get_company_info()
 
 Pull information on the company with the given ticker symbol. This will only work for a company, it will not return information on, ETFs, warrants, indices etc.
+
 ```asx.getCompanyInfo("CBA");```
 
 ### get_security_info()
 
 Pull pricing information on the security with the given ticker symbol. This can be for any type of listed security, such as company stock, bonds, ETFs etc.
+
 ```asx.getSecurityInfo("CBA");```
 
 ## Changelog
