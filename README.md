@@ -1,6 +1,6 @@
 # asxjs
 
-![npm](https://img.shields.io/npm/v/asxjs) ![NPM](https://img.shields.io/npm/l/asxjs)
+![npm](https://img.shields.io/npm/v/asxjs)
 
 NodeJS library to pull ASX stock information via the undocumented API used on [www.ASX.com.au](https://www.asx.com.au). Based on the python example [pyasx](https://github.com/jericmac/pyasx) ported to a custom class Typescript library.
 
