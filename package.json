@@ -1,6 +1,6 @@
 {
   "name": "asxjs",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A Node library for interfacing with ASX APIs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
