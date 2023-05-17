@@ -58,5 +58,8 @@ asx.getSecurityInfo("CBA").then((response) => {
 
 ## Changelog
 
+### 1.0.4
+ - version bump
+
 ### 1.0.0
  - Initial version
